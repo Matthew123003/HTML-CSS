@@ -20,7 +20,7 @@ p.success.feedback{
     color: green;
     text-decoration: dashed;
  } */
-
+/* 
  a[href="https://squareenix.com"]{
     color: purple;
     text-transform: uppercase;
@@ -30,4 +30,21 @@ p.success.feedback{
  }
  a[href*="google"]{
     text-transform: lowercase;
- }
+ } */
+  div{
+    color: green;
+    font-size: 20px;
+    border: 2px solid red;
+    margin: 20px;
+    font-weight: bold;
+  }
+div p{
+    border: inherit;
+    margin: inherit;
+    color: purple;
+}
+p{
+    color: yellowgreen;
+}
+/* When it comes to CSS specificity is what rules. The most specific style is what is shown. And its from top to bottom.
+So if two things have the same specificity, the lowest one will take precidence because it is the last one applied*/
