@@ -4,4 +4,14 @@ h1{
 
 p{
     color: blue;
+    background-color: slategray;
+}
+ul{
+    color: red;
+}
+ol{
+    color: green;
+}
+li{
+    color: purple;
 }
