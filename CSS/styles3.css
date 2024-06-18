@@ -1,4 +1,4 @@
-p.error{
+/* p.error{
     color: red;
 }
 p.success{
@@ -7,8 +7,27 @@ p.success{
 p.success.feedback{
     color: blue;
     border: 1px dashed green;
-}
+} */
 
-#content{
+/* #content{
     color: purple;
-}
+} */
+ /* div .error{
+    color: red;
+ } */
+
+ /* a[href="https://www.google.com"] {
+    color: green;
+    text-decoration: dashed;
+ } */
+
+ a[href="https://squareenix.com"]{
+    color: purple;
+    text-transform: uppercase;
+ }
+ a[href$=".com"]{
+    background-color: aqua;
+ }
+ a[href*="google"]{
+    text-transform: lowercase;
+ }
