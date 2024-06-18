@@ -1,3 +1,14 @@
-.error{
+p.error{
     color: red;
+}
+p.success{
+    color: rgb(31, 221, 31);
+}
+p.success.feedback{
+    color: blue;
+    border: 1px dashed green;
+}
+
+#content{
+    color: purple;
 }
