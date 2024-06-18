@@ -12,19 +12,19 @@
 
         <form action="">
             <label for="username">Enter username:</label>
-            <input type="text" id="username" name="username" placeholder="Enter username">
+            <input type="text" id="username" name="username" placeholder="Enter username" required>
             <br>
             <br>
             <label for="email">Enter email:</label>
-            <input type="email" id="email" name="email" placeholder="Enter email">
+            <input type="email" id="email" name="email" placeholder="Enter email" required>
             <br>
             <br>
             <label for="password">Enter password:</label>
-            <input type="password" id="password" name="password" placeholder="enter password">
+            <input type="password" id="password" name="password" placeholder="enter password" required>
             <br>
             <br>
             <label for="confirm password">Confirm password:</label>
-            <input type="password" id="confirm password" name="confirm password" placeholder="enter password">
+            <input type="password" id="confirm password" name="confirm password" placeholder="enter password" required>
             <hr>
             <br>
             <p>PLEASE ENTER YOUR GENDER:</p>
@@ -88,6 +88,9 @@
             will be sent in a grouping where the form action setting decides what happens. When you create your
             initial form tag, it will ask for an action, that is where you will define information needed for server
             side and PHP processing-->
+            <!--HTML5 also comes with built in validation, where when you set your input types, it will also make sure
+            test is text, email is email, and so on. Can also make information required by adding required attribute
+            to input tags and they dont need any type of other information or input-->
         </form>
 
        
