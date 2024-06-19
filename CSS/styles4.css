@@ -137,3 +137,6 @@ div{
     font-size: 1.5em;
     color:purple;
  } 
+ p::after{
+    content: "........"
+ }
