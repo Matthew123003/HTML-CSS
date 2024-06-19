@@ -127,3 +127,13 @@ div{
  form input.email:valid{
     border: 4px solid green;
  }
+ article p::first-line{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: grey;
+ }
+ section.join p::first-letter{
+    font-weight: bold;
+    font-size: 1.5em;
+    color:purple;
+ } 
