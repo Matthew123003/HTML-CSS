@@ -73,3 +73,18 @@ div{
  nav li a.home{
     color: orange;
  }
+ main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+ }
+ article h2{
+    color: goldenrod;
+    font-size: 30px;
+ }
+ article p{
+    color:crimson;
+    font-size: 25px;
+ }
