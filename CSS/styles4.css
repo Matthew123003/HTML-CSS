@@ -94,6 +94,7 @@ div{
     text-align: center;
     max-width: 100%;
     margin: 80px 80px;
+    font-size: 48px;
  }
  .join{
     background: #F4F4F4;
@@ -111,4 +112,18 @@ div{
     border-radius: 28px;
  }
  /* PSUEDO CLASSES */
- 
+
+ nav li a:hover{
+    text-decoration: underline;
+    background-color: turquoise;
+ }
+ .images li:hover{
+    position: relative;
+    top: -5px;
+ }
+ form input.email:focus{
+    border: 4px dashed #4B4B4B;
+ }
+ form input.email:valid{
+    border: 4px solid green;
+ }
