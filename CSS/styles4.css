@@ -8,5 +8,6 @@ div{
 } */
 
 header{
-    position: static;
+    position: relative;
+    left: 100px;
 }
