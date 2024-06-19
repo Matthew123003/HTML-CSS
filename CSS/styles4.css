@@ -7,7 +7,28 @@ div{
     background-color: green;
 } */
 
-header{
+/* header{
     position: relative;
     left: 100px;
-}
+    top: 50px;
+} */
+ .banner{
+    postion: relative;
+ }
+ .banner img{
+    max-width: 100%;
+ }
+ .banner .welcome{
+    position: absolute;
+    left: 0px;
+    top: 45%;
+    color: green;
+    background-color: #FEB614;
+    padding: 30px;
+ }
+ .banner h2{
+    font-size: 30px;
+ }
+ .banner h2 span{
+    font-size: 1.5em;
+ }
