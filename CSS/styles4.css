@@ -32,3 +32,44 @@ div{
  .banner h2 span{
     font-size: 1.5em;
  }
+ header{
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+ }
+ header h1{
+    color: green;
+    border: 8px solid whitesmoke;
+    padding: 6px/*top and bottom*/ 12px /*left and right*/;
+    max-width: 100%;
+    display: inline-block;
+    border-radius: 36px;
+ }
+ nav{
+    background-color: #F4F4F4;
+    padding: 20px;
+    position: sticky;
+    top: 130px;
+ }
+ nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+ nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 20px;
+ }
+ nav li a{
+    text-decoration: none;
+    color: orchid;
+ }
+ nav li a.home{
+    color: orange;
+ }
