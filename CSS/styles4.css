@@ -140,3 +140,10 @@ div{
  p::after{
     content: "........"
  }
+
+ /* responsive styles */
+/* media screen is for anything with a screen. The and (max-width: 1400px) means anything below 1400px apply the styles,
+and (min-width: 800px) means anything above 800px implement styles*/
+ @media screen and (max-width: 1400px){
+    
+ }
