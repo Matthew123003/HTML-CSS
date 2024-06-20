@@ -145,5 +145,33 @@ div{
 /* media screen is for anything with a screen. The and (max-width: 1400px) means anything below 1400px apply the styles,
 and (min-width: 800px) means anything above 800px implement styles*/
  @media screen and (max-width: 1400px){
+
+    .banner .welcome h2{
+        font-size: 25px;
+     }
+
+ }
+
+ @media screen and (max-width: 900px) {
     
  }
+
+ @media screen and (max-width: 700px){
+    .banner .welcome br{
+        display: none;
+    }
+
+    .banner .welcome h2{
+        font-size: 25px;
+    }
+
+    .banner .welcome span{
+        font-size: 20px;
+    }
+
+    .images li{
+        display: block;
+    }
+ }
+ /* .banner .welcome are the way you call styling for classes. .images is the same thing. Then calling the tags within
+ the classes does not need another dot. Unless the tag you are calling within the class, is a child class. */
